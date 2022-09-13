@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ecommerce</title>
+</head>
+<body>
+
+    <header>
+    <nav>
+        <h2 class="logo">
+            Weartake
+        </h2>
+
+        <div class="menuNav">
+            <p>Todos</p>
+            <p>Acessórios</p>
+            <p>Calçados</p>
+            <p>Camisetas</p>
+        </div>
+    </nav>
+    </header>
+
+    <main class="container">
+
+    <section class="containerMain">
+
+        <div class="products">   
+            <ul class="productItens">
+                <li class="card">
+                    <img src="./img/camiseta_branca.svg" alt=""/>
+                    <div class="cardInfo">
+                        <span>
+                            Camisetas
+                        </span>
+                        <p class="productName">
+                            Camiseta Branca
+                        </p>
+                        <p class="productDescription">
+                            Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...
+                        </p>
+                        <p class="productPrice">
+                            R$ 100,00
+                        </p>
+                        <a href="url" class="addCart">
+                            Adicionar ao carrinho
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cartItens">
+
+            <div class="navItens">
+                <input type="text" placeholder="Digite sua pesquisa">
+                <button type="submit" >Pesquisar</button>
+            </div>
+
+            <div class="carrinho">
+                <nav class="navCart">Carrinho de compras</nav>
+                <main class="">
+                    <ul>
+                        <li class="cardCart">
+                            <img class="cartCardImg" src="./img/camiseta_branca.svg" alt=""/>
+                            <div class="cartInfo">
+                                <p class="cartItemName"></p>
+                                <p class="cartValor"></p>
+                                <a href="" class="removeButton"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </main>
+
+                <footer class="footerCart">
+                    <p>Quantidade</p>
+                    <p>Total</p>
+                </footer>
+            </div>
+        </div>
+
+    </section>
+    </main>
+
+    <script src="./js/database.js" ></script>
+    <script src="./js/index.js" ></script>
+</body>
+</html>
