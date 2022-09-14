@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2d0538 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2d0538;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+    max-width: 100%;
+    max-height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: 65px;
+
+    box-shadow: 2px #333333;
+}
+
+header nav .menuNav {
+    display: flex;
+    margin: 20px auto;
+    gap: 15px;
+    margin-left: 700px;
+}
+
+header nav .menuNav p{
+    color: #333333;
+}
+
+header .logo {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.container {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.productItens {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 818px;
+    height: 480px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 8px;
+}
+
+.imgCard {
+    width: 100%;
+    height: 145px;
+    background-color: #F5F5F5;
+}
+
+.card {
+    max-width: 260px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    max-width: 260px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #2E245E;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.spanCard {
+    background-color: #37268C;
+    width: 110px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 11px;
+    color: #ffffff;
+}
+
+.productName {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.productDescription {
+    width: 100%;
+    margin-left: 3px;
+    font-size: 14px;
+    padding: 4px;
+    margin-bottom: 5px;
+    color: #828282;
+}
+
+.productPrice {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color : #37268C;
+}
+
+.addCart {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.addCart:hover {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.cartItens {
+    max-width: 400px;
+    max-height: 800px;
+    width: 380px;
+    margin-left: 4px;
+}
+
+div .navItens {
+    display: flex;
+}
+
+.navItens input {
+    height: 40px;
+    width: 280px;
+    border: 0px;
+    background-color: rgb(238, 230, 230);
+    padding: 10px;
+}
+
+.navItens button {
+    border: 0px;
+    background-color: #37268C;
+    width: 124px;
+    color: #ffffff;
+}
+
+div .carrinho .navCart {
+    max-width: 400px;
+    background-color: #37268C;
+    height: 60px;
+    padding-left: 108px;
+    padding-top: 19px;
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+.cartMain {
+    width: 100%;
+    height: 270px;
+    list-style: none;
+    background-color: rgb(238, 230, 230);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cartItem {
+    width: 380px;
+    background-color: #ffffff;
+}
+
+.cardCart {
+    display: flex;
+    background-color: #F5F5F5;
+    border: 3px solid rgb(238, 230, 230);
+}
+
+.cartCardImg {
+    width: 90px;
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+.cartItemName {
+    padding: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cartValor {
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #37268C;
+}
+
+.removeButton {
+    padding: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footerCart {
+    background-color: #333333;
+}
+
+.footerCart .qtdeCart {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footerCart .valueCart {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
