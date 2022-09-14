@@ -93,7 +93,7 @@ header .logo {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .card:hover {
@@ -103,8 +103,9 @@ header .logo {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10px;
     border: solid 1px #2E245E;
+    margin: 1px;
 }
 
 .cardInfo{
@@ -122,6 +123,8 @@ header .logo {
 }
 
 .productName {
+    width: 100%;
+    height: 70px;
     margin-left: 5px;
     font-weight: bold;
     font-size: 20px;
@@ -130,10 +133,9 @@ header .logo {
 
 .productDescription {
     width: 100%;
+    height: 70px;
     margin-left: 3px;
     font-size: 14px;
-    padding: 4px;
-    margin-bottom: 5px;
     color: #828282;
 }
 
@@ -238,6 +240,14 @@ div .carrinho .navCart {
     font-size: 14px;
     text-decoration: none;
 }
+
+.removeButton:hover {
+    padding: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
 
 .footerCart {
     background-color: #333333;
